@@ -9,7 +9,7 @@ process.stdin.on('data', (key) => {
 
   const keyString = JSON.stringify(key);
   
-  console.log(`입력: ${keyString}`);
+  console.log(`input: ${keyString}`);
 
   produce(keyString);
 });
